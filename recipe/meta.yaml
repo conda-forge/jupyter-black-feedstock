@@ -1,5 +1,5 @@
 {% set name = "jupyter-black" %}
-{% set version = "0.3.0" %}
+{% set version = "0.3.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/jupyter-black-{{ version }}.tar.gz
-  sha256: 54191b27c8dbbc51ef6c32f98eeb4d8d681e01c2f1c8b29f8cc8f1cff2313488
+  sha256: f0b0a60a8ea8302a8d65947aab691238addb2806a1d658eb5a98078feb44811c
 
 build:
   noarch: python
@@ -34,7 +34,7 @@ test:
 
 about:
   home: https://github.com/n8henrie/jupyter-black
-  summary: 'A simple extension for Jupyter Notebook and Jupyter Lab to beautify Python code automatically using Black. Fork of dnanhkhoa/nb_black.'
+  summary: A simple extension for Jupyter Notebook and Jupyter Lab to beautify Python code automatically using Black. Fork of dnanhkhoa/nb_black.
   license: MIT
   license_file: LICENSE
 
