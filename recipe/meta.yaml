@@ -1,5 +1,5 @@
 {% set name = "jupyter-black" %}
-{% set version = "0.3.1" %}
+{% set version = "0.3.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/jupyter-black-{{ version }}.tar.gz
-  sha256: f0b0a60a8ea8302a8d65947aab691238addb2806a1d658eb5a98078feb44811c
+  sha256: ddc72d9c79515872dc833bef5dbb32f2611679bf92996c1426f339cc87197975
 
 build:
   noarch: python
