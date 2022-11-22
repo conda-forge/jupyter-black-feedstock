@@ -17,12 +17,12 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.6
+    - python >=3.7
   run:
-    - black <23,>=21.9b0
-    - ipython <8,>=7.27.0
-    - python >=3.6
-    - tokenize-rt <5,>=4.1.0
+    - black >=21.9b0
+    - ipython >=7.27.0
+    - python >=3.7
+    - tokenize-rt >=4.1.0
 
 test:
   imports:
