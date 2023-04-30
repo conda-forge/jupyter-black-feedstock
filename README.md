@@ -1,11 +1,11 @@
-About jupyter-black
-===================
+About jupyter-black-feedstock
+=============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/jupyter-black-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/n8henrie/jupyter-black
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/jupyter-black-feedstock/blob/main/LICENSE.txt)
 
 Summary: A simple extension for Jupyter Notebook and Jupyter Lab to beautify Python code automatically using Black. Fork of dnanhkhoa/nb_black.
 
